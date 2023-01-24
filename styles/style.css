@@ -6,11 +6,28 @@
     background-size: contain;
 }
 
+#criminalLaw{
+
+    background-color: rgba(210, 210, 210, 0.166);
+}
+
 #form1{
 
     width: 50%;
+    
 }
 
+#formbtn1{
+
+    background-color: #B68C5A;
+}
+
+#navbtn{
+
+    background-color: #B68C5A;
+    color: #ffffff;
+    border: none;
+}
 
 
 #newsbtn{
@@ -19,4 +36,13 @@
     background-repeat: no-repeat;
     background-color: #B68C5A;
     background-position: center;
+}
+
+#button-addon2{
+
+    background-image: url(../images/send.png);
+    background-repeat: no-repeat;
+    background-color: #B68C5A;
+    background-position: center;
+    width: 15%;
 }
