@@ -6,7 +6,17 @@
     background-size: contain;
 }
 
-form{
+#form1{
 
     width: 50%;
+}
+
+
+
+#newsbtn{
+
+    background-image: url(../images/send.png);
+    background-repeat: no-repeat;
+    background-color: #B68C5A;
+    background-position: center;
 }

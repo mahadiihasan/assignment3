@@ -64,7 +64,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
-                        <form class="d-flex mx-auto" role="search">
+                        <form id="form1" class="d-flex mx-auto" role="search">
                             <input class="form-control me-3" type="search" placeholder="Search" aria-label="Search">
                             <button class="btn btn-secondary" type="submit">Search</button>
                         </form>
@@ -313,9 +313,9 @@
     <!-- footer -->
 
     <section class="footer" style="background-color: black;">
-        <div class="container">
+        <div class="container py-5 mx-auto">
             <div class="row">
-                <div class="col-md-3 col-sm-12 text-center">
+                <div class="col-md-3 col-sm-12 text-start">
                     <img src="./images/logo.png" alt="">
                     <p class="pt-3 fs-6 text-light fw-lighter">There are many variations of<br>
                         passages of Lorem Ipsum <br>
@@ -323,31 +323,37 @@
                         suffered alteration in some <br>
                         form, by injected humour</p>
                 </div>
-                <div class="col-md-3 col-sm-12 text-center">
+                <div class="col-md-2 col-sm-12 text-start mt-3">
                     <h5 class="text-light pb-4">Useful Link</h5>
-                    <div>
-                        <p><a href="" class="text-decoration-none text-light">Home</a></p>
+                    <div class="fw-lighter">
+                        <p></p><a href="" class="text-decoration-none text-light">Home</a></p>
                         <p><a href="" class="text-decoration-none text-light">About Us</a></p>
                         <p><a href="" class="text-decoration-none text-light">Cases</a></p>
                         <p><a href="" class="text-decoration-none text-light">Blog</a></p>
                         <p><a href="" class="text-decoration-none text-light">Contact Us</a></p>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-12 text-center">
+                <div class="col-md-3 col-sm-12 text-start mt-3">
                     <h5 class="text-light pb-4">Contact now</h5>
-                    <div>
+                    <div class="text-light fw-lighter">
                         <p class="py-2">555 4th 5t rW, Washington <br>DC 205n0, United States</p>
                         <p>+88 01680471115 <br> +88 01680471115</p>
                         <p>info@gmail.com <br>info@gmail.com</p>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-12 text-center">
-                    <img src="./images/logo.png" alt="">
-                    <p class="pt-3 fs-6 text-light fw-lighter">There are many variations of<br>
-                        passages of Lorem Ipsum <br>
-                        available, but the majority have <br>
-                        suffered alteration in some <br>
-                        form, by injected humour</p>
+                <div class="col-md-4 col-sm-12 text-start mt-3">
+                    <h5 class="text-light pb-4">Useful Link</h5>
+                    <p class="pt-3 fs-6 text-light fw-lighter">Subscribe for our latest & <br> Articles. We Won’t Give you <br>
+                        Spam Mails</p>
+
+                    <form id="form2" action="#" class="d-flex">
+                            <div>
+                                <input type="text" placeholder="Email Address" class="form-control">
+                            </div>  
+                            <div>
+                                <input id="newsbtn" type="button" class="btn btn-primary">
+                            </div>                  
+                    </form>                    
                 </div>
             </div>         
         </div>
